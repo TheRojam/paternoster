@@ -23,6 +23,9 @@ setup(name='paternoster',
       install_requires=[
           'tldextract>=2.0.1',
           'ansible==2.1.1.0',
+          'pyasn1',
+          'pyasn1-modules',
+          'pyOpenSSL',
           'six',
       ],
       classifiers=[
